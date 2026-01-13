@@ -27,7 +27,7 @@ export const HowItWorks: React.FC = () => {
                     </div>
                     <h3 className="text-xl font-bold text-navy text-center mb-3">1. Free Monitoring Setup</h3>
                     <p className="text-gray-600 text-center leading-relaxed px-4">
-                        We analyze your property's storm history for the past 2 years and set up continuous monitoring. If there's damage now, we'll find it. If a storm hits later, we'll alert you. No cost ever for this.
+                        We analyze your property's storm history for the past 2 years and set up continuous monitoring. If there's damage now, we'll find it. If a storm hits later, we'll alert you. No cost. No catch.
                     </p>
                 </div>
 

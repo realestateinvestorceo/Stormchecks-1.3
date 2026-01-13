@@ -39,7 +39,7 @@ export const CTASection: React.FC = () => {
 
         <div className="flex flex-col items-center space-y-4">
           <Button size="lg" className="w-full sm:w-auto text-lg px-12 py-5 shadow-[0_0_20px_rgba(201,151,0,0.3)]">
-            Get Your Free Analysis
+            Start Free Monitoring
           </Button>
           <p className="text-gray-400 text-sm">
             Takes 2 minutes. No obligation. Completely confidential.
