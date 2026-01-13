@@ -25,17 +25,21 @@ export const Hero: React.FC = () => {
             We Know Why Claims Get Denied. <span className="text-amber">Because We Used To Deny Them.</span>
           </h1>
           
-          <p className="text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl">
-            Our founder spent 20 years inside major insurance carriers. Now, we use that insider knowledge to build airtight forensic evidence files that help commercial owners recover what they're actually owed.
+          <p className="text-xl text-gray-300 mb-6 leading-relaxed max-w-2xl">
+            Our founder spent 20 years inside insurance carriers denying claims. Now he builds the files that don't get denied. You pay nothing unless you recover.
+          </p>
+          
+          <p className="text-lg text-gray-400 mb-8 font-medium">
+             Start with free monitoring. If we find damage, you decide what's next.
           </p>
           
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
             <Button size="lg" onClick={scrollToCTA} className="group">
-              Find Out What You're Owed
+              Get Free Storm Monitoring
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="text-sm text-gray-400 pl-2">
-              No recovery, no fee. <br className="sm:hidden"/>We only get paid when you do.
+              2-year lookback + ongoing alerts. No cost, no obligation.
             </p>
           </div>
         </div>

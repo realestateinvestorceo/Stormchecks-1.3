@@ -33,11 +33,11 @@ export const Navbar: React.FC = () => {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#problem" className="text-gray-300 hover:text-white transition-colors">The Problem</a>
+            <a href="#problem" className="text-gray-300 hover:text-white transition-colors">Why It Matters</a>
             <a href="#process" className="text-gray-300 hover:text-white transition-colors">How It Works</a>
-            <a href="#results" className="text-gray-300 hover:text-white transition-colors">Results</a>
+            <a href="#results" className="text-gray-300 hover:text-white transition-colors">Proof</a>
             <Button variant="primary" size="md" onClick={scrollToCTA}>
-              Get Free Analysis
+              Free Monitoring
             </Button>
           </div>
 
@@ -57,11 +57,11 @@ export const Navbar: React.FC = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-navy-light absolute top-full left-0 right-0 shadow-xl border-t border-navy-dark">
           <div className="px-4 pt-4 pb-8 space-y-4">
-            <a href="#problem" onClick={() => setIsMobileMenuOpen(false)} className="block text-gray-300 hover:text-white py-2">The Problem</a>
+            <a href="#problem" onClick={() => setIsMobileMenuOpen(false)} className="block text-gray-300 hover:text-white py-2">Why It Matters</a>
             <a href="#process" onClick={() => setIsMobileMenuOpen(false)} className="block text-gray-300 hover:text-white py-2">How It Works</a>
-            <a href="#results" onClick={() => setIsMobileMenuOpen(false)} className="block text-gray-300 hover:text-white py-2">Results</a>
+            <a href="#results" onClick={() => setIsMobileMenuOpen(false)} className="block text-gray-300 hover:text-white py-2">Proof</a>
             <Button fullWidth onClick={scrollToCTA}>
-              Get Free Analysis
+              Free Monitoring
             </Button>
           </div>
         </div>

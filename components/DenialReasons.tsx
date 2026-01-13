@@ -28,7 +28,7 @@ export const DenialReasons: React.FC = () => {
             Why Claims Get Denied (Even When Valid)
           </h2>
           <p className="text-lg text-gray-600">
-            It's rarely about whether the damage exists. It's about whether the documentation proves it to the carrier's standard.
+            The damage is real. But if the paperwork doesn't meet the carrier's internal criteria, you get $0.
           </p>
         </div>
 

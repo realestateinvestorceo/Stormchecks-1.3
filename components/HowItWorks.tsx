@@ -10,7 +10,7 @@ export const HowItWorks: React.FC = () => {
             How It Works
           </h2>
           <p className="text-lg text-gray-600">
-            A simple process designed to minimize your effort and maximize your result.
+            Free to start. You only pay if you recover.
           </p>
         </div>
 
@@ -25,9 +25,9 @@ export const HowItWorks: React.FC = () => {
                     <div className="mx-auto w-24 h-24 bg-navy rounded-full flex items-center justify-center text-white shadow-lg mb-6 border-4 border-white">
                         <Search className="h-10 w-10" />
                     </div>
-                    <h3 className="text-xl font-bold text-navy text-center mb-3">1. Free Storm Analysis</h3>
+                    <h3 className="text-xl font-bold text-navy text-center mb-3">1. Free Monitoring Setup</h3>
                     <p className="text-gray-600 text-center leading-relaxed px-4">
-                        We analyze your property's history against NOAA weather databases. If there is no viable storm date, we tell you immediately. No cost, no waste of time.
+                        We analyze your property's storm history for the past 2 years and set up continuous monitoring. If there's damage now, we'll find it. If a storm hits later, we'll alert you. No cost ever for this.
                     </p>
                 </div>
 

@@ -6,7 +6,9 @@ import { DenialReasons } from './components/DenialReasons';
 import { InsiderAdvantage } from './components/InsiderAdvantage';
 import { CaseStudies } from './components/CaseStudies';
 import { HowItWorks } from './components/HowItWorks';
+import { MonitoringSection } from './components/MonitoringSection';
 import { CTASection } from './components/CTASection';
+import { UrgencySection } from './components/UrgencySection';
 import { Footer } from './components/Footer';
 
 const App: React.FC = () => {
@@ -20,7 +22,9 @@ const App: React.FC = () => {
         <InsiderAdvantage />
         <CaseStudies />
         <HowItWorks />
+        <MonitoringSection />
         <CTASection />
+        <UrgencySection />
       </main>
       <Footer />
     </div>

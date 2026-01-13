@@ -7,21 +7,21 @@ export const CTASection: React.FC = () => {
     <section id="contact" className="py-24 bg-navy relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-          We Assume All The Risk.
+          You Pay Nothing Unless You Get Paid
         </h2>
         <p className="text-xl text-gray-300 mb-10 leading-relaxed">
-          You have zero out-of-pocket cost. StormChecks takes a 10% success fee only when you get paid. The public adjuster takes 20%. If the claim doesn't pay, you owe us absolutely nothing.
+          Zero out-of-pocket cost. Zero upfront fees. StormChecks takes 10% only when your claim pays out. The public adjuster takes 20%. If the claim doesn't pay, you owe nothing to anyone.
         </p>
 
         <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 mb-10 border border-white/10">
-          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left max-w-2xl mx-auto">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left max-w-2xl mx-auto mb-6">
             <li className="flex items-center text-gray-200">
               <CheckCircle2 className="h-5 w-5 text-amber mr-3 flex-shrink-0" />
-              <span>Zero upfront fees</span>
+              <span>Free storm history analysis</span>
             </li>
             <li className="flex items-center text-gray-200">
               <CheckCircle2 className="h-5 w-5 text-amber mr-3 flex-shrink-0" />
-              <span>Free initial analysis</span>
+              <span>No upfront fees</span>
             </li>
             <li className="flex items-center text-gray-200">
               <CheckCircle2 className="h-5 w-5 text-amber mr-3 flex-shrink-0" />
@@ -29,9 +29,12 @@ export const CTASection: React.FC = () => {
             </li>
             <li className="flex items-center text-gray-200">
               <CheckCircle2 className="h-5 w-5 text-amber mr-3 flex-shrink-0" />
-              <span>Vetted adjuster network</span>
+              <span>Vetted public adjuster network</span>
             </li>
           </ul>
+          <p className="text-gray-400 text-sm border-t border-white/10 pt-4">
+            It starts with free monitoring. If we find something, you decide what to do next.
+          </p>
         </div>
 
         <div className="flex flex-col items-center space-y-4">
@@ -39,7 +42,7 @@ export const CTASection: React.FC = () => {
             Get Your Free Analysis
           </Button>
           <p className="text-gray-400 text-sm">
-            Strictly confidential. No obligation.
+            Takes 2 minutes. No obligation. Completely confidential.
           </p>
         </div>
       </div>
